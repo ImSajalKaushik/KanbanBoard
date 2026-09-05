@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="26300" systemVersion="25G100" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="TaskRecord" representedClassName="TaskRecord" syncable="YES">
+        <attribute name="createdAt" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="details" attributeType="String" defaultValueString=""/>
+        <attribute name="id" attributeType="String" defaultValueString=""/>
+        <attribute name="isTombstone" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="lastSyncError" optional="YES" attributeType="String"/>
+        <attribute name="sortIndex" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="statusRaw" attributeType="String" defaultValueString="todo"/>
+        <attribute name="syncStateRaw" attributeType="String" defaultValueString="pending"/>
+        <attribute name="title" attributeType="String" defaultValueString=""/>
+        <attribute name="updatedAt" attributeType="Date" usesScalarValueType="NO"/>
+        <uniquenessConstraints>
+            <uniquenessConstraint>
+                <constraint value="id"/>
+            </uniquenessConstraint>
+        </uniquenessConstraints>
+    </entity>
+    <elements>
+        <element name="TaskRecord" positionX="-63" positionY="-18" width="128" height="224"/>
+    </elements>
+</model>
